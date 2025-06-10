@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.henrique.png" type="imagem/x-icon">
+    <title>Portfólio/Biografia</title>
+</head>
+<body>
+
+<header>
+    <img class="sdc" src="logo.henrique.png" alt="Logo Henrique">
+    
+    <div class="menu-escondido" onclick="apareceMenu()">☰</div>
+
+    <nav id="menu">
+        <a href="#sobreMin">Sobre Min</a>
+        <a href="#HaBiLiDaDes">Habilidades</a>
+        <a href="#ProJeTo">Projetos</a>
+        <a href="#CerTiFiCaDos">Certificados</a>
+        <a href="#ConTaTo">Contato</a>
+    </nav>
+</header>
+
+<section id="sobreMin" class="sobre">
+    <div class="programador">
+        <img src="Henrique.png" alt="Henrique">
+        <p class="descricao">Henrique Contiero Negrão Alves</p>
+    </div>
+    <p class="descricao">
+        Meu nome é Henrique Contiero Negrão Alves, tenho 18 anos e sou um desenvolvedor web apaixonado por criar soluções digitais criativas e funcionais.
+        Atualmente, estudo no SENAI, onde estou aprendendo sobre programação, desenvolvimento web e outras tecnologias relacionadas.
+        Tenho experiência com desenvolvimento front-end, utilizando HTML, CSS e JavaScript.
+        Além disso, gosto de aprender novas tecnologias e me manter sempre atualizado.
+        Também adoro cozinhar nas horas vagas e pretendo me tornar um cozinheiro profissional no futuro, pois sei fazer de tudo um pouco.
+        Quero seguir a carreira de cozinheiro e desenvolver minhas habilidades nessa área.
+    </p>
+</section>
+
+<section id="HaBiLiDaDes" class="habilidades">
+    <h2>Habilidades</h2>
+    <ul>
+        <li>HTML5 & CSS</li>
+        <li>JavaScript</li>
+        <li>Flutter</li>
+        <li>Cozinhar</li>
+        <li>Desenhar</li>
+    </ul>
+</section>
+
+<section id="ProJeTo" class="projetos">
+    <h2>Projetos</h2>
+    <div class="projeto">
+        <img src="Quimica.projeto.png" alt="Projeto 1">
+        <h3>Quimica Projeto</h3>
+        <p>Site sobre ácido, bases, sais e pH.</p>
+    </div>
+
+    <div class="projeto">
+        <img src="safe_zone.projeto.png" alt="Projeto 2">
+        <h3>Safe-Zone</h3>
+        <p>Página de um site que fiz, voltado para monitorar o Brasil.</p>
+    </div>
+
+    <div class="projeto">
+        <img src="Lingua.projeto.png" alt="Projeto 3">
+        <h3>Vanguardas</h3>
+        <p>Um site voltado à língua Portuguesa, sobre Vanguardas.</p>
+    </div>
+
+    <div class="projeto">
+        <img src="Quimica.fluter.png" alt="Projeto 4">
+        <h3>Quimica</h3>
+        <p>Um site feito para celular sobre Química.</p>
+    </div>
+
+    <div class="projeto">
+        <img src="PrimeiroTrabalho.png" alt="Projeto 5">
+        <h3>Primeiro Trabalho sobre Media Query</h3>
+        <p>Um dos primeiros trabalhos que fiz sobre Media Query.</p>
+    </div>
+</section>
+
+<section id="ConTaTo" class="contato">
+    <h2>Contato</h2>
+    <a href="">Telefone</a>
+    <p>19 99458-3692</p>
+    <a href="">E-mail</a>
+    <p>contierohenrique@gmail.com</p>
+    <a href="" target="_blank">GitHub</a>
+    <p>henrique.c.alves6@aluno.senai.br</p>
+    <a href="">Instagram</a>
+    <p>Henri.pdx</p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Henrique Contiero Negrão Alves. Todos os direitos reservados.</p>
+</footer>
+
+<script>
+    function apareceMenu() {
+        const menu = document.getElementById('menu');
+        menu.classList.toggle('show');
+    }
+</script>
+
+</body>
+</html>
